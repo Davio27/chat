@@ -145,7 +145,7 @@ def send_message(client, username, server_public_key, token):
                 break
             client.send(encrypt_message(f"{username}> {message}", server_public_key))
         except:
-            break
+            break 
 
 
 if __name__ == "__main__":
